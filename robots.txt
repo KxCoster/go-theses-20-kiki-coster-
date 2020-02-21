@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://kabk.github.io-go-theses-20-kiki-coster/sitemap.xml

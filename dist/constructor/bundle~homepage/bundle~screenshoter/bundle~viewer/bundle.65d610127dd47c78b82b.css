@@ -1,0 +1,82 @@
+.rm-cookies-alert {
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  border-color: #ffffff;
+  width: 324px;
+  height: 84px;
+  font-family: Graphik;
+  box-sizing: border-box;
+  margin: 16px;
+  color: #282828;
+  padding: 0 26px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.rm-cookies-alert span {
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  line-height: 1;
+  font-weight: 400;
+}
+.rm-cookies-alert a {
+  color: #282828;
+  text-decoration: none;
+}
+.rm-cookies-alert a:hover {
+  color: #ec520b;
+}
+.rm-cookies-alert button {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.rm-cookies-alert button:hover svg {
+  fill: #ec520b !important;
+}
+.workspace-container[data-viewport='phone_portrait'] .rm-cookies-alert,
+body.constructor.preview .rm-cookies-alert {
+  width: 100%;
+  margin: 16px 0;
+}
+.workspace-container[data-viewport='phone_portrait'] .rm-cookies,
+body.constructor.preview .rm-cookies,
+.workspace-container[data-viewport='phone_portrait'] .widget-rm-cookies,
+body.constructor.preview .widget-rm-cookies {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+#rm-cookies-wrapper {
+  position: fixed;
+  z-index: 556;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+@media screen and (max-width: 767px) and (orientation: portrait) {
+#rm-cookies-wrapper {
+    width: 100%;
+    padding: 16px 20px;
+}
+.rm-cookies-alert {
+    margin: 0;
+    width: 100%;
+}
+.rm-cookies-alert span {
+    font-size: 14px !important;
+}
+.widget-rm-cookies {
+    left: 0 !important;
+    margin-left: 0 !important;
+    width: 100vw !important;
+    padding: 0px 20px !important;
+    box-sizing: border-box;
+}
+}
+
